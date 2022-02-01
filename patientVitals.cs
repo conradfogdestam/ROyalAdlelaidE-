@@ -9,5 +9,10 @@ namespace RoyalAdelaide
         public int bpm { get; set; }
         public int bodyTemp { get; set; }
         public int bloodPressure { get; set; }
+
+        public void printVitals()
+        {
+            Console.WriteLine($"BPM: {bpm}\nBody Temp: {bodyTemp}℃\nBlood Pressure: {bloodPressure}mmHg");
+        }
     }
 }

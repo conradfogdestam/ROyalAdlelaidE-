@@ -9,6 +9,7 @@ namespace RoyalAdelaide
             patient fronx = new patient("fronx");
             patient ddd = new patient("ddd");
             doctor roit = new doctor("roit");
+            nurse doink = new nurse("doink");
 
             fronx.vitals.bloodPressure = 80;
 
@@ -17,6 +18,10 @@ namespace RoyalAdelaide
             hospital.hospitalPatients.Add(fronx);
             hospital.hospitalPatients.Add(ddd);
             roit.operation(fronx);
+            doink.checkVitals(fronx);
+
+
+
             foreach (var patient in hospital.hospitalPatients)
             {
                 Console.WriteLine(patient.name);
@@ -28,8 +33,6 @@ namespace RoyalAdelaide
                     Console.WriteLine(bill.amount);
                 }
             }
-
-
         }
     }
 }

@@ -12,3 +12,17 @@ C:\Users\conra\source\repos\RoyalAdelaide\obj\Debug\netcoreapp3.1\RoyalAdelaide.
 C:\Users\conra\source\repos\RoyalAdelaide\obj\Debug\netcoreapp3.1\RoyalAdelaide.dll
 C:\Users\conra\source\repos\RoyalAdelaide\obj\Debug\netcoreapp3.1\RoyalAdelaide.pdb
 C:\Users\conra\source\repos\RoyalAdelaide\obj\Debug\netcoreapp3.1\RoyalAdelaide.genruntimeconfig.cache
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\bin\Debug\netcoreapp3.1\RoyalAdelaide.exe
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\bin\Debug\netcoreapp3.1\RoyalAdelaide.deps.json
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\bin\Debug\netcoreapp3.1\RoyalAdelaide.runtimeconfig.json
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\bin\Debug\netcoreapp3.1\RoyalAdelaide.runtimeconfig.dev.json
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\bin\Debug\netcoreapp3.1\RoyalAdelaide.dll
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\bin\Debug\netcoreapp3.1\RoyalAdelaide.pdb
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.csproj.AssemblyReference.cache
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.AssemblyInfoInputs.cache
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.AssemblyInfo.cs
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.csproj.CoreCompileInputs.cache
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.dll
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.pdb
+C:\Users\conra\Documents\GitHub\ROyalAdlelaidE-\obj\Debug\netcoreapp3.1\RoyalAdelaide.genruntimeconfig.cache

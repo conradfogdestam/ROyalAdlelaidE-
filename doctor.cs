@@ -6,7 +6,6 @@ namespace RoyalAdelaide
 {
     class doctor : employee
     {
-
         public doctor(string _name)
         {
             name = _name;
