@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conra\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj": {}
+    "C:\\Users\\conrad.fogdestam\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conra\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj": {
+    "C:\\Users\\conrad.fogdestam\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conra\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj",
+        "projectUniqueName": "C:\\Users\\conrad.fogdestam\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj",
         "projectName": "RoyalAdelaide",
-        "projectPath": "C:\\Users\\conra\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj",
-        "packagesPath": "C:\\Users\\conra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conra\\Documents\\GitHub\\ROyalAdlelaidE-\\obj\\",
+        "projectPath": "C:\\Users\\conrad.fogdestam\\Documents\\GitHub\\ROyalAdlelaidE-\\RoyalAdelaide.csproj",
+        "packagesPath": "C:\\Users\\conrad.fogdestam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\conrad.fogdestam\\Documents\\GitHub\\ROyalAdlelaidE-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\conra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\conrad.fogdestam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

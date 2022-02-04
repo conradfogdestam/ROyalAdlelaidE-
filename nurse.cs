@@ -12,6 +12,7 @@ namespace RoyalAdelaide
         }
         public void checkVitals(patient patientToCheckVitalsOf)
         {
+            Console.WriteLine($"Patient Name: {patientToCheckVitalsOf.name}");
             patientToCheckVitalsOf.vitals.printVitals();
         }
     }

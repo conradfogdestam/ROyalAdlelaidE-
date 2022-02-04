@@ -12,7 +12,7 @@ namespace RoyalAdelaide
 
         public void printVitals()
         {
-            Console.WriteLine($"BPM: {bpm}\nBody Temp: {bodyTemp}℃\nBlood Pressure: {bloodPressure}mmHg");
+            Console.WriteLine($"BPM: {bpm}\nBody Temp: {bodyTemp}\nBlood Pressure: {bloodPressure}mmHg\n");
         }
     }
 }

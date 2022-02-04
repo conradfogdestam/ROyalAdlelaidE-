@@ -6,33 +6,32 @@ namespace RoyalAdelaide
     {
         static void Main(string[] args)
         {
-            patient fronx = new patient("fronx");
-            patient ddd = new patient("ddd");
-            doctor roit = new doctor("roit");
-            nurse doink = new nurse("doink");
+            administrator admin1 = new administrator("admin1");
+            patient patient1 = new patient("patient1");
+            patient patient2 = new patient("patient2");
+            doctor doctor1 = new doctor("doctor1");
+            nurse nurse1 = new nurse("nurse1");
 
-            fronx.vitals.bloodPressure = 80;
+            patient1.vitals.bloodPressure = 80;
+            patient1.vitals.bodyTemp = 37;
+            patient1.vitals.bpm = 93;
+            patient2.vitals.bpm = 87;
+            patient2.vitals.bloodPressure = 76;
+            patient2.vitals.bodyTemp = 39;
 
-            bill newBill = new bill(30, "ddsdasd");
-            fronx.patientbills.Add(newBill);
-            hospital.hospitalPatients.Add(fronx);
-            hospital.hospitalPatients.Add(ddd);
-            roit.operation(fronx);
-            doink.checkVitals(fronx);
+            admin1.billPatient(patient1, 30000, "operation bill");
 
+            hospital.hospitalPatients.Add(patient1);
+            hospital.hospitalPatients.Add(patient2);
 
+            nurse1.checkVitals(patient1);
+            doctor1.operation(patient1);
 
-            foreach (var patient in hospital.hospitalPatients)
-            {
-                Console.WriteLine(patient.name);
-                Console.WriteLine(patient.patientId);
-                Console.WriteLine(patient.vitals.bloodPressure);
-
-                foreach (var bill in patient.patientbills)
-                {
-                    Console.WriteLine(bill.amount);
-                }
-            }
+            admin1.checkPatientsBills(patient1);
+            admin1.printAllCurrentPatients();
+            admin1.releasePatient(patient1);
+            admin1.printAllCurrentPatients();
+            admin1.patientInfo(patient2);
         }
     }
 }

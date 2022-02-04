@@ -14,10 +14,15 @@ namespace RoyalAdelaide
         {
             Random rd = new Random();
             int chance = rd.Next(2);
-            if (chance.Equals(1))
+            if (chance == 1)
             {
                 hospital.hospitalPatients.Remove(operationSubject);
-                Console.WriteLine($"Oh no!! {operationSubject.name} died of death.\nTime of death: {DateTime.Now}");
+                Console.WriteLine($"Oh no!! {operationSubject.name} died of death.\nTime of death: {DateTime.Now}\n");
+            }
+            else
+            {
+                Console.WriteLine($"Yaaay!! {operationSubject.name} Survived!!\n");
+
             }
             
         }
