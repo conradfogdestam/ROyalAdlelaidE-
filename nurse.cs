@@ -12,8 +12,16 @@ namespace RoyalAdelaide
         }
         public void checkVitals(patient patientToCheckVitalsOf)
         {
-            Console.WriteLine($"Patient Name: {patientToCheckVitalsOf.name}");
-            patientToCheckVitalsOf.vitals.printVitals();
+            if (hospital.hospitalPatients.Contains(patientToCheckVitalsOf))
+            {
+                Console.WriteLine($"Patient Name: {patientToCheckVitalsOf.name}");
+                patientToCheckVitalsOf.vitals.printVitals();
+            }
+            else
+            {
+                Console.WriteLine("Patient does not exist");
+            }
+      
         }
     }
 }

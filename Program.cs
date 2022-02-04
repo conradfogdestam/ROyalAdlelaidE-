@@ -19,7 +19,9 @@ namespace RoyalAdelaide
             patient2.vitals.bloodPressure = 76;
             patient2.vitals.bodyTemp = 39;
 
-            admin1.billPatient(patient1, 30000, "operation bill");
+            admin1.assignDoctorToPatient(patient1, doctor1);
+            admin1.assignDoctorToPatient(patient2, doctor1);
+            admin1.billPatient(patient1, 30000, "operation cost");
 
             hospital.hospitalPatients.Add(patient1);
             hospital.hospitalPatients.Add(patient2);
@@ -27,11 +29,11 @@ namespace RoyalAdelaide
             nurse1.checkVitals(patient1);
             doctor1.operation(patient1);
 
-            admin1.checkPatientsBills(patient1);
             admin1.printAllCurrentPatients();
             admin1.releasePatient(patient1);
             admin1.printAllCurrentPatients();
             admin1.patientInfo(patient2);
+            admin1.patientInfo(patient1);
         }
     }
 }

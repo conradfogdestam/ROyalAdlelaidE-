@@ -18,8 +18,6 @@ namespace RoyalAdelaide
             vitals = new patientVitals();
             patientId = Guid.NewGuid();
             name = _name;
-
         }
-
     }
 }
