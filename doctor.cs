@@ -23,10 +23,9 @@ namespace RoyalAdelaide
                 }
                 else
                 {
-                    Console.WriteLine($"{operationSubject.name} survived the surgery and will make a full recovery!!");
+                    Console.WriteLine($"{operationSubject.name} survived the surgery and will make a full recovery!!\n");
 
                 }
-                Console.WriteLine($"Surgery performed by {operationSubject.assignedDoctor}\n");
             }
             else
             {
