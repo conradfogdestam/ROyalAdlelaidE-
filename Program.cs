@@ -148,7 +148,7 @@ namespace RoyalAdelaide
             while (inMenu)
             {
                 Console.Clear();
-                Console.Write($"Logged in as {currentAdmin.name}\nOptions:\n1) Assign doctor to patient\n2) Release patient\n3) Check patient bills\n4) Hospital patients list\n5) Patient info\n6) Bill patient\n7) Hire Staff\n8) Fire staff\n9) Log out\nSelect: ");
+                Console.Write($"Logged in as {currentAdmin.name}\nOptions:\n1) Assign doctor to patient\n2) Release patient\n3) Check patient bills\n4) Hospital patients list\n5) Patient info\n6) Bill patient\n7) Add to hospital\n8) Fire staff\n9) Log out\nSelect: ");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -190,16 +190,16 @@ namespace RoyalAdelaide
                         Thread.Sleep(2000);
                         break;
                     case 7:
-                        currentAdmin.hireStaff();
+                        currentAdmin.addToHospital();
                         break;
                     case 8:
                         currentAdmin.fireStaff();
                         break;
-                    default:
                     case 9:
                         Console.Clear();
                         inMenu = false;
                         break;
+                    default:
                         Console.WriteLine("INVALID!!!");
                         Thread.Sleep(1000);
                         Console.Clear();

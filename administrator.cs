@@ -39,24 +39,31 @@ namespace RoyalAdelaide
                 Thread.Sleep(2000);
             }
         }
-        public void hireStaff()
+        public void addToHospital()
         {
-            Console.Write("Hire...\n1) Nurse\n2) Doctor");
+            Console.Write("Add...\n1) Nurse\n2) Doctor\n3) Patient\nSelect: ");
             int choice = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter name of new staff");
-            var name = Convert.ToString(Console.ReadLine());
+            Console.Write("Enter name:\nSelect: ");
+            var name = Console.ReadLine();
             if (choice == 1)
             {
-                dynamic nurse = new nurse(name);
-                hospital.hospitalNurses.Add(nurse);
-                Console.WriteLine($"Added {nurse.name} to doctor staff! Id {nurse.employeeId}");
+                nurse Nurse = new nurse(name);
+                hospital.hospitalNurses.Add(Nurse);
+                Console.WriteLine($"Added {Nurse.name} to doctor staff! Id {Nurse.employeeId}");
                 Thread.Sleep(2000);
             }
             if (choice == 2)
             {
-                dynamic doctor = new doctor(name);
-                hospital.hospitalDoctors.Add(doctor);
-                Console.WriteLine($"Added {doctor.name} to doctor staff! id {doctor.employeeId}");
+                doctor Doctor = new doctor(name);
+                hospital.hospitalDoctors.Add(Doctor);
+                Console.WriteLine($"Added {Doctor.name} to doctor staff! id {Doctor.employeeId}");
+                Thread.Sleep(2000);
+            }
+            if (choice == 3)
+            {
+                patient Patient = new patient(name);
+                hospital.hospitalPatients.Add(Patient);
+                Console.WriteLine($"{Patient.name} was hospitalized! id {Patient.patientId}");
                 Thread.Sleep(2000);
             }
         }
